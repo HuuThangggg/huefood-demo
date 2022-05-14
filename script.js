@@ -8,3 +8,7 @@ var index = 1;
 			index = 0;
 		}
 	} 
+const btn=document.querySeclector(".btn")
+btn.addEventlistener("click",function(){
+	alert("Đã thêm vào giỏ hàng")
+})
